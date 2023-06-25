@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+  height: 100vh;
+  background-image: url('../public/empty-dark-concrete-wall-room-studio-background-floor-perspective-with-blue-soft-light-displays.jpg');
+  background-size: cover; /* or "contain" depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray !important;
+  opacity: 1; /* Firefox */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: gray !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: gray !important;
+}
+
+
+.nav-link {
+  font-size: 20px !important;
+}
+
+
+.form-control {
+  background-color: transparent !important;
+  color:whitesmoke !important;
+}
+
+.form-select {
+  background-color: transparent !important;
+  color:whitesmoke !important;
+}
+
+.form-select>option {
+  color: whitesmoke !important;
+  background-color: #07191f;
+}
+
+.grade-credit-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sub-num-input {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.result {
+  margin-top: 15px;
+  background-color: lightcyan !important;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.main-text {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.num-input {
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.cal-btn {
+  margin-top: 20px;
+}
+
+.cal-btn {
+  background-color: #003a4b !important;
+  border-color: whitesmoke !important;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
-import { Col, Container, Row, InputGroup } from 'react-bootstrap';
+import { Col, Row} from 'react-bootstrap';
 
 
 function SgpaCredits({ id }) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, InputGroup } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import GradeCredit from './GradeCredit';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
